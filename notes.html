@@ -1,96 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Student Vibes – Notes</title>
   <style>
     body {
-      margin: 0;
       font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #ff512f, #dd2476);
-      color: #fff;
-      text-align: center;
+      background: #f4f7fb;
+      color: #222;
+      margin: 0;
+      padding: 0;
     }
     header {
-      background: rgba(0, 0, 0, 0.7);
-      padding: 1rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 15px;
+      background: #0d47a1;
+      color: white;
+      text-align: center;
+      padding: 20px;
     }
-    header img {
-      height: 60px;
-      border-radius: 50%;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.5);
-    }
-    h1 {
-      font-size: 2rem;
+    header h1 {
       margin: 0;
+      font-size: 28px;
     }
-    .notes-section {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
+    nav {
+      background: #1976d2;
+      padding: 10px;
+      text-align: center;
     }
-    .note-link {
-      display: block;
-      background: #2196f3;
-      color: #fff;
-      padding: 12px;
-      margin: 10px auto;
+    nav a {
+      color: white;
       text-decoration: none;
-      border-radius: 10px;
+      margin: 0 15px;
       font-weight: bold;
-      transition: background 0.3s;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 20px;
+    }
+    h2 {
+      border-bottom: 2px solid #1976d2;
+      padding-bottom: 5px;
+      color: #0d47a1;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      margin: 8px 0;
+    }
+    ul li a {
+      color: #1976d2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    ul li a:hover {
+      text-decoration: underline;
+    }
+    .timetable {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .timetable img {
       max-width: 90%;
+      border: 2px solid #ddd;
+      border-radius: 10px;
     }
-    .note-link:hover {
-      background: #0b79d0;
-    }
-    .btn-back {
-      background: #ff9800;
-      color: #fff;
-      padding: 12px 25px;
-      border-radius: 30px;
-      text-decoration: none;
-      font-weight: bold;
+    footer {
+      background: #0d47a1;
+      color: white;
+      text-align: center;
+      padding: 15px;
       margin-top: 30px;
-      display: inline-block;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-    }
-    .btn-back:hover {
-      background: #e68900;
     }
   </style>
 </head>
 <body>
-  <!-- Header -->
   <header>
-    <img src="School badge (2).jpg" alt="School Badge" />
-    <h1>Student Vibes – Notes</h1>
+    <h1>📘 Student Vibes – Study Notes</h1>
+    <p>All your learning resources in one place.</p>
   </header>
 
-  <!-- Notes Section -->
-  <section class="notes-section">
-    <h2>📖 Course Notes & Resources</h2>
+  <nav>
+    <a href="index.html">🏠 Home</a>
+    <a href="https://chat.whatsapp.com/HScRhVnEhHRE7AZQmetmSk" target="_blank">💬 WhatsApp Group</a>
+  </nav>
 
-    <!-- Uploaded Notes -->
-    <a href="CHAPTER 1 CONCEPTS OF SYSTEM ANALYSIS AND DESIGN.docx" class="note-link">CHAPTER 1: System Analysis & Design (DOCX)</a>
-    <a href="SYSTEM ANALYSIS AND DESIGN COURSE OUTLINE.docx" class="note-link">System Analysis & Design Course Outline</a>
-    <a href="CHAPTER1SYSTEM ANALYSIS.pdf" class="note-link">System Analysis – PDF Notes</a>
-    <a href="introduction to computer organization-lecture 1.pdf" class="note-link">Computer Organization – Lecture 1</a>
-    <a href="surds roots operation.pdf" class="note-link">Mathematics: Surds & Roots</a>
-
-    <!-- Extra Reference Notes -->
-    <a href="software_engineering_tutorial.pdf" class="note-link">Software Engineering Tutorial (TutorialsPoint)</a>
-    <a href="software_engineering_lecture_notes.pdf" class="note-link">Software Engineering Lecture Notes (Process Models, SRS)</a>
-    <a href="introduction_to_software_engineering.pdf" class="note-link">Introduction to Software Engineering (Definition & Lifecycle)</a>
-
-    <!-- Back Button -->
-    <a href="index.html" class="btn-back">⬅ Back to Home</a>
+  <section>
+    <h2>📂 Uploaded Notes</h2>
+    <ul>
+      <li><a href="CHAPTER1SYSTEM ANALYSIS.pdf" target="_blank">📄 Chapter 1: System Analysis (PDF)</a></li>
+      <li><a href="CHAPTER 1 CONCEPTS OF SYSTEM ANALYSIS AND DESIGN.docx" target="_blank">📘 Concepts of System Analysis & Design (DOCX)</a></li>
+      <li><a href="SYSTEM ANALYSIS AND DESIGN COURSE OUTLINE.docx" target="_blank">📘 System Analysis Course Outline (DOCX)</a></li>
+      <li><a href="introduction to computer organization-lecture 1.pdf" target="_blank">📄 Introduction to Computer Organization – Lecture 1 (PDF)</a></li>
+      <li><a href="surds roots operation.pdf" target="_blank">📄 Surds & Root Operations (PDF)</a></li>
+      <li><a href="KILELE TUTION BLOCK.jpg" target="_blank">🖼️ Kilele Tuition Block (Image)</a></li>
+      <li><a href="School badge (2).jpg" target="_blank">🖼️ School Badge</a></li>
+      <li><a href="educate empower lead.jpg" target="_blank">🖼️ Educate, Empower, Lead Poster</a></li>
+      <li><a href="download (1).jpg" target="_blank">🖼️ Extra Image</a></li>
+    </ul>
   </section>
+
+  <section>
+    <h2>📌 Timetable</h2>
+    <div class="timetable">
+      <img src="timetable.jpg" alt="Class Timetable">
+    </div>
+  </section>
+
+  <section>
+    <h2>🌍 Reference Websites</h2>
+    <ul>
+      <li><a href="https://www.geeksforgeeks.org" target="_blank">GeeksforGeeks – Programming & CS Concepts</a></li>
+      <li><a href="https://www.tutorialspoint.com/software_engineering/index.htm" target="_blank">TutorialsPoint – Software Engineering</a></li>
+      <li><a href="https://www.w3schools.com" target="_blank">W3Schools – Web Development Tutorials</a></li>
+      <li><a href="https://www.javatpoint.com/software-engineering" target="_blank">JavaTpoint – Software Engineering Notes</a></li>
+      <li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/" target="_blank">MIT OpenCourseWare – CS & Engineering</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Student Vibes | Made with ❤️ for KYU Software Engineering Group B</p>
+  </footer>
 </body>
 </html>
